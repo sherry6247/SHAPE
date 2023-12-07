@@ -5,9 +5,9 @@ This repository provides the code for [SHAPE: a Sample-adaptive Hierarchical Pre
 ![The framework of SHAPE](./images/framework.png)
 
 ## Data 
-For a fair comparision, we use the same data and pre-processing scripts used in ![COGNet](https://github.com/BarryRun/COGNet)
+For a fair comparision, we use the same data and pre-processing scripts used in [COGNet](https://github.com/BarryRun/COGNet)
 
-Please put the data into the ![data](./data/) folder
+Please put the data into the [data](./data/) folder
   * records_final.pkl
   * voc_final.pkl
   * ehr_adj_final.pkl
