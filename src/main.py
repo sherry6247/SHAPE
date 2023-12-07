@@ -57,7 +57,7 @@ def adjust_learning_rate(optimizer, i_iter, args, current_length):
 parser = argparse.ArgumentParser()
 # parser.add_argument('--Test', action='store_true', default=True, help="test mode")
 parser.add_argument('--Test', action='store_true', default=False, help="test mode")
-parser.add_argument('--model_name', type=str, default='Set_GMed', help="model name")
+parser.add_argument('--model_name', type=str, default='SHAPE', help="model name")
 parser.add_argument('--resume_path', type=str, default='', help='resume path')
 parser.add_argument('--lr', type=float, default=0.001, help='learning rate')
 parser.add_argument('--batch_size', type=int, default=2, help='batch_size')
