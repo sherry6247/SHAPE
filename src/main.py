@@ -21,7 +21,6 @@ from data_loader import mimic_data, pad_batch_v2_train, pad_batch_v2_eval, pad_n
 
 import sys
 sys.path.append("..")
-# from COGNet_ablation import COGNet_wo_copy, COGNet_wo_visit_score, COGNet_wo_graph, COGNet_wo_diag, COGNet_wo_procmy
 from shape_model import SHAPE
 from util import llprint, sequence_metric, sequence_output_process, ddi_rate_score, get_n_params, output_flatten, print_result
 from recommend import eval, test
