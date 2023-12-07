@@ -26,7 +26,7 @@ conda env create -f environment.yml
 ```
 python main.py
 ```
-
+we put the best model checkpoint in the [save_model](./save_model/) folder
 
 ## Contact
 Please contact [csesicen@ust.hk](csesicen@ust.hk) for help or submit an issue.
