@@ -22,6 +22,8 @@ Please create the conda environment through yaml file
 ```
 conda env create -f environment.yml
 ```
+Please note that we trained our code on the Linux platform.
+
 ## Run the code
 ```
 python main.py
